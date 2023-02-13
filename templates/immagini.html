@@ -1,0 +1,16 @@
+<html>
+    <head>
+        <title>Immagini</title>
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    </head>
+    <body>
+
+    <div class="divimmagini">
+        <a href="/duomo"><img src="{{url_for('static', filename='images/duomo.jpg')}}" class="immagineHome"></a>
+        <a href="/galleria"><img src="{{url_for('static', filename='images/galleria-milano.jpg')}}" class="immagineHome"></a>       
+        <a href="/sforzesco"><img src="{{url_for('static', filename='images/sforzesco.jpg')}}" class="immagineHome"></a>       
+        <a href="/teatro"><img src="{{url_for('static', filename='images/teatro-alla-scala.jpg')}}" class="immagineHome"></a>
+    </div>
+   
+    </body>
+</html>

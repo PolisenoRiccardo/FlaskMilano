@@ -21,7 +21,7 @@ def sforzesco():
 def galleria():
   return render_template("galleria.html")
 
-@app.route('/scala')
+@app.route('/teatro')
 def scala():
   return render_template("scala.html")
 

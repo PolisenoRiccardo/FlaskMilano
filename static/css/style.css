@@ -1,0 +1,22 @@
+.immagineHome {
+    float: left;
+    padding-right: 10px;
+    padding-top: 30px;
+    width: 400px;
+}
+
+.divimmagini {
+    width: max-content;
+    height: max-content;
+    margin: auto;
+}
+
+p {
+    text-align: center; 
+    padding-top: 40px;
+}
+
+h1 {
+    text-align: center; 
+    padding-top: 40px;
+}
